@@ -2,14 +2,27 @@
 # Juan Salcedo
 # 2.6.19
 
-# Asking for user input
+"""
 name = input("What is your name? ")
 
-# Defineing a variable to print a statement/string
 def greeting():
     print("Hi there " + name + "! ")
     print("Nice to meet you")
 
-# Calling in the variable "greeting()"
 greeting()
+
+"""
+
+# 4.13.4: Functions and Variables
+# Juan Salcedo
+# 2.6.19
+
+x = 406
+
+def print_something():
+    x = 13
+    print(x)
+
+print_something()
+print(x)
 
