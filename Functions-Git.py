@@ -13,4 +13,3 @@ def greeting():
 # Calling in the variable "greeting()"
 greeting()
 
-
