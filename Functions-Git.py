@@ -17,7 +17,7 @@ greeting()
 # Juan Salcedo
 # 2.6.19
 
-x = 406
+x = 11
 
 def print_something():
     x = 13
