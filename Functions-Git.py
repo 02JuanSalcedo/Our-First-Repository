@@ -21,7 +21,7 @@ x = 11
 
 def print_something():
     x = 13
-    print(x)80c7553c2ccef244552414800906208089d3a8c1
+    print(x)
 
 print_something()
 print(x)
