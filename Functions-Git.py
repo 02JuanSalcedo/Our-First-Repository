@@ -21,7 +21,7 @@ x = 11
 
 def print_something():
     x = 13
-    print(x)
+    print(x)80c7553c2ccef244552414800906208089d3a8c1
 
 print_something()
 print(x)
@@ -56,7 +56,7 @@ print_number('\n' + 'Hello World')
 # 2.18.19
 
 def name_and_age(name, age):
-    print('\n', 'Hi, My name is', name, 'and I am', str(age), 'years old.')
+    print('\n', 'Hi, My80c7553c2ccef244552414800906208089d3a8c1 name is', name, 'and I am', str(age), 'years old.')
 
 name_and_age('Juan Salcedo', 15)
 name_and_age('Dr. Suess', 22)
@@ -74,6 +74,16 @@ def print_two_numbers(x, y = 20):
 
 print_two_numbers(5, 67)
 print_two_numbers(23)
+
+# 4.14.7: Print Mutiple Times
+# Juan Salcedo
+# 2.19.19
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('\n''Hello Computer Scientist', 10)
 
 # 4.14.7: Print Mutiple Times
 # Juan Salcedo
