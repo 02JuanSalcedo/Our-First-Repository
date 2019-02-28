@@ -61,3 +61,16 @@ def name_and_age(name, age):
 name_and_age('Juan Salcedo', 15)
 name_and_age('Dr. Suess', 22)
 name_and_age('Mike', 56)
+
+
+# 4.14.5: Default Parameters Values
+# Juan Salcedo
+# 2.19.19
+
+
+def print_two_numbers(x, y = 20):
+    print('\n''First number:', x)
+    print('Second Number;', y)
+
+print_two_numbers(5, 67)
+print_two_numbers(23)
