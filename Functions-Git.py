@@ -56,7 +56,7 @@ print_number('\n' + 'Hello World')
 # 2.18.19
 
 def name_and_age(name, age):
-    print('\n', 'Hi, My80c7553c2ccef244552414800906208089d3a8c1 name is', name, 'and I am', str(age), 'years old.')
+    print('\n', 'Hi, My name is', name, 'and I am', str(age), 'years old.')
 
 name_and_age('Juan Salcedo', 15)
 name_and_age('Dr. Suess', 22)
@@ -105,3 +105,14 @@ try:
 
 except ValueError:
     print('That was not an integer')
+
+# 4.14.4: Name and Age
+# Juan Salcedo
+# 2.18.19
+
+def name_and_age(name, age):
+    print('\n', 'Hi, My name is', name, 'and I am', str(age), 'years old.')
+
+name_and_age('Juan Salcedo', 15)
+name_and_age('Dr. Suess', 22)
+name_and_age('Mike', 56)
